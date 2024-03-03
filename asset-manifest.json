@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Zithara-Task/static/css/main.9f323ff2.css",
+    "main.js": "/Zithara-Task/static/js/main.cf58691a.js",
+    "static/js/453.419a5d54.chunk.js": "/Zithara-Task/static/js/453.419a5d54.chunk.js",
+    "index.html": "/Zithara-Task/index.html",
+    "main.9f323ff2.css.map": "/Zithara-Task/static/css/main.9f323ff2.css.map",
+    "main.cf58691a.js.map": "/Zithara-Task/static/js/main.cf58691a.js.map",
+    "453.419a5d54.chunk.js.map": "/Zithara-Task/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f323ff2.css",
+    "static/js/main.cf58691a.js"
+  ]
+}
