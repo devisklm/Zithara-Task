@@ -14,7 +14,7 @@ PostgreSQL database installed and running
 
 ## Installation
 Clone the repository:\
-git clone https://github.com/devisklm/Zithara-Task.git.\
+git clone https://github.com/devisklm/Zithara-Task.git .\
 Navigate to the project directory:\
 cd Task
 ### Install dependencies for the frontend and backend:
