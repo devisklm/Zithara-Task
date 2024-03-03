@@ -2,15 +2,15 @@
 This project is a full-stack web application built with React, Node.js, Express, and PostgreSQL. It allows users to manage customer records with functionalities such as viewing, searching, sorting, and pagination.
 
 ## Features
-Display customer records in a table format
-Search customers by name or location
-Sort customers by date or time of creation
-Paginate through customer records
+1. Display customer records in a table format.
+2. Search customers by name or location.
+3. Sort customers by date or time of creation.
+4. Paginate through customer records.
 
 # Getting Started
 ## Prerequisites
-Node.js and npm installed on your machine
-PostgreSQL database installed and running
+. Node.js and npm installed on your machine.
+. PostgreSQL database installed and running
 
 # Installation
 Clone the repository:
