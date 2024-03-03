@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Customer Management System
+This project is a full-stack web application built with React, Node.js, Express, and PostgreSQL. It allows users to manage customer records with functionalities such as viewing, searching, sorting, and pagination.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+Display customer records in a table format
+Search customers by name or location
+Sort customers by date or time of creation
+Paginate through customer records
 
-## Available Scripts
+# Getting Started
+## Prerequisites
+Node.js and npm installed on your machine
+PostgreSQL database installed and running
 
-In the project directory, you can run:
+# Installation
+Clone the repository:
+git clone https://github.com/devisklm/Zithara-Task.git
+Navigate to the project directory:
+cd Task
+Install dependencies for the frontend and backend:
+# Install frontend dependencies
+cd client
+npm install
+# Install backend dependencies
+cd server
+npm install
+Database Setup
+Create a PostgreSQL database named Zithara.
+Execute the SQL script located in backend/database.sql to create the customers table.
+Optionally, populate the database with dummy data using the provided SQL script.
 
-### `npm start`
+## Configuration
+In the backend directory, create a .env file with the following environment variables:
+DB_USER=postgres
+DB_PASSWORD=postgres_password
+DB_HOST=localhost
+DB_PORT=5432
+DB_DATABASE=Zithar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Running the Application
+Start the backend server:
+cd server
+node server.js
+In a separate terminal, start the frontend development server:
+cd client
+npm start
+Open your web browser and navigate to http://localhost:3000 to access the application.
